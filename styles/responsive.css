@@ -1,0 +1,26 @@
+@media (max-width:768px) {
+    .nav-menu-items-mobile{
+        flex-direction: column;
+    }
+
+    #header-index{
+        height: 500px;
+        background-color: #400C68;
+        background-image: url(../assets/img/IMAG10.png), 
+            url(../assets/img/IMAG19.png), 
+            url(../assets/img/IMAGOTIPO1.png) , 
+            url(../assets/img/IMAGOTIPO2.png),
+            url(../assets/img/LINEA\ NARANJA.png),
+            url(../assets/img/IMAGOTIPO1.png);
+        background-position: right 10% top 35%, right 20% top , right -10% bottom 25% , left 30% bottom 25% , left 100% , left -20% top 28%;
+        background-repeat: no-repeat;
+        background-size: 18% auto , contain, 30% auto , 30% auto , auto 100% , 30% auto;
+        overflow: hidden;
+    }
+
+    .bg-mobile{
+        background-color: rgba(0, 0, 0, 0.5);;
+    }
+
+    
+}

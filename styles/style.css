@@ -1,0 +1,70 @@
+/* estilos del navbar */
+.bg-nav{
+    background-color: #400C68;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../assets/img/menu.png) !important; /* Cambia el color del ícono a rojo */
+  }
+  
+
+.nav-logo{
+    width: 215px;
+    height: 130px;
+}
+
+.nav-menu-items{
+    width: 60%;
+}
+
+.nav-menu-items a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-menu-items a:last-child{
+    background-color: #F15A24;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+/* estilos del header */
+#header-index{
+    height: 100vh;
+    background-color: #400C68;
+    background-image: url(../assets/img/IMAG10.png), 
+        url(../assets/img/IMAG19.png), 
+        url(../assets/img/IMAGOTIPO1.png) , 
+        url(../assets/img/IMAGOTIPO2.png),
+        url(../assets/img/LINEA\ NARANJA.png),
+        url(../assets/img/IMAGOTIPO1.png);
+    background-position: right 10% top 35%, right 20% top , right -10% bottom 25% , left 30% bottom 25% , left 100% , left -20% top 28%;
+    background-repeat: no-repeat;
+    background-size: 18% auto , contain, 30% auto , 30% auto , auto 100% , 30% auto;
+    overflow: hidden;
+}
+
+.text-description{
+    height: 400px;
+    width: 100%;
+}
+
+.text-style-1{
+    color: white;
+}
+
+
+
+.btn_demo{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    background-color: #F15A24;
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 7px;
+}
+
+
