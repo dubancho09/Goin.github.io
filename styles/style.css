@@ -136,6 +136,7 @@
 /*Estilos sección de propositos*/
 .propositos-seccion{
     background-color: #BFC9CA;
+    padding-bottom: 20px;
     height: auto;
 }
 
@@ -163,6 +164,60 @@
     bottom: -10px;
 }
 
-/* #servicio1{
-    background-image: url(../assets/img/IMG4.png);
-} */
+/*Estilos sección servicios*/
+#servicios{
+    background-color: #380050;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.servicios-imagenes{
+    width: 250px;
+}
+
+.servicio-item a {
+    text-decoration: none;
+    color: white;
+    background-color: #F15A24;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.equipo img{
+    width: 250px;
+}
+
+.equipo div{
+    display: block;
+    width: auto;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    background-color: #F15A24;
+}
+
+.equipo a {
+    color: white;
+}
+
+/*Estilos footer*/
+#footer-lang{
+    height: 400px;
+    background-color: #424949;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-enviar{
+    background-color: #400C68 !important;
+    color: white !important;
+}
+
+.img-footer{
+    width: 300px;
+}
+
