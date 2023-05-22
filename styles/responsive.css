@@ -22,5 +22,12 @@
         background-color: rgba(0, 0, 0, 0.5);;
     }
 
+    .nube-descripcion{
+        height: 90px;
+        position: absolute;
+        right: 80px;
+        top: -30px;
+    }
+
     
 }

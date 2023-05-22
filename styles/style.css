@@ -67,4 +67,102 @@
     padding: 7px;
 }
 
+/*estilos sección de contactos*/
+.contacto{
+    overflow: hidden;
+}
+.conecta-informacion{
+    background-color: #BFC9CA;
+    height: 600px;
+}
 
+.contacto-icon{
+    height: 50px;
+}
+
+.img-hombre{
+    height: 470px;
+}
+
+.seccion-contacto-img{
+    position: relative;
+}
+
+.nube-descripcion{
+    height: 150px;
+    position: absolute;
+    right: 120px;
+    top: -30px;
+}
+
+.conecta-informacion-formulario{
+    background-color: #4A235A;
+}
+
+.text-orange{
+    color: #F25725;
+}
+
+.form-group label{
+    color: white;
+}
+
+.btn-contacto{
+    background-color: #F25725 !important;
+    color: white !important;
+    font-weight: bold !important;
+    width: 70%;
+}
+
+.input-contacto{
+    background-color: transparent !important;
+    border-color: 1px solid white;
+    color: white !important;
+}
+
+.input-contacto:focus{
+    box-shadow: none !important;
+    border-color: white !important;
+}
+
+.select-contacto{
+    
+    background: #4A235A !important;
+    border-color: 1px solid white;
+    color: white !important;
+}
+
+
+/*Estilos sección de propositos*/
+.propositos-seccion{
+    background-color: #BFC9CA;
+    height: auto;
+}
+
+.titulo-propsitos{
+    width: 50%;
+}
+
+.titulo-propsitos h3 {
+    color: #4A235A;
+}
+
+.titulo-propsitos span {
+    text-align: justify;
+}
+
+
+
+
+.card-habilidad{
+    position: relative;
+}
+
+.card-habilidad h4{
+    position: absolute;
+    bottom: -10px;
+}
+
+/* #servicio1{
+    background-image: url(../assets/img/IMG4.png);
+} */
