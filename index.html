@@ -32,7 +32,17 @@
                         <a href="#">beneficios</a>
                         <a href="#">contacto</a>
                         <a href="#">nosotros</a>
-                        <a href="#">planes</a>
+                        <div class="dropdown">
+                            <button class="btn btn-drop dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Planes
+                              </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Plan Básico</a></li>
+                                <li><a class="dropdown-item" href="#">Plan Premium</a></li>
+                                <li><a class="dropdown-item" href="#">Plan Gold</a></li>
+                              </ul>
+                        </div>
+                        
                         <a href="#">inicar sesión</a>
                     </div>
                 </div>
@@ -273,7 +283,9 @@
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Nombre Completo">
                                 <input type="number" class="form-control mt-2" placeholder="Celular">
-                                <button class="btn btn-enviar mt-2">Enviar</button>
+                                <div class="d-flex justify-content-center">
+                                    <button class="btn btn-enviar mt-2">Enviar</button>
+                                </div>
                             </div>
                         </div>
                     </form>
@@ -283,7 +295,50 @@
                         <img class="img-footer mt-4 " src="./assets/img/IMAG17.png" alt="">
                     </div>
                 </div>
-                
+                <div class="col-md-4 d-flex justify-content-center flex-column">
+                    <div class="d-flex contacto-footer">
+                        <img src="./assets/img/IMAG9.png"/>
+                        <a href="#">Info@goinn.com.co</a>
+                    </div>
+                    <div class="d-flex contacto-footer">
+                        <img src="./assets/img/IMAG8.png"/>
+                        <a href="#">Barrio El Poblado
+                            Medellín, Colombia</a>
+                    </div>
+                </div>
+                <div class="d-flex flex-column align-items-center mt-5">
+                    <div class="d-flex servicio-items-footer">
+                        <a href="#">Tecnología</a>
+                        <span>|</span>
+                        <a href="#">Marketing</a>
+                        <span>|</span>
+                        <a href="#">Innovación</a>
+                        <span>|</span>
+                        <a href="#">Proyectos</a>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end mt-5">
+                    <div class="d-flex redes-sociales">
+                        <a href="#">
+                            <img src="./assets/img/IMAG11.png">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/img/IMAG12.png">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/img/IMAG13.png">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/img/IMAG14.png">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/img/IMAG15.png">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/img/IMAG16.png">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>

@@ -22,6 +22,40 @@
     text-decoration: none;
     font-size: 25px;
     font-weight: bold;
+    transition: all 300ms;
+}
+
+.btn-drop{
+    color: white !important;
+    font-size: 25px !important;
+    font-weight: bold !important;
+    transition: all 300ms !important;
+}
+
+.btn-drop:hover{
+    background-color: #007BFF !important;
+    padding: 5px !important;
+    border-radius: 15px !important;
+}
+
+.dropdown-menu li a{
+   background-color: transparent !important; 
+   color: black;
+   font-weight: normal;
+   font-size: 15px;
+}
+
+
+.dropdown-menu li a:hover{
+    background-color: #007BFF !important;
+    color: white;
+    border-radius: 0px;
+}
+
+.nav-menu-items a:hover{
+    background-color: #007BFF;
+    padding: 5px;
+    border-radius: 15px;
 }
 
 .nav-menu-items a:last-child{
@@ -215,9 +249,34 @@
 .btn-enviar{
     background-color: #400C68 !important;
     color: white !important;
+    width: 200px;
 }
 
 .img-footer{
     width: 300px;
 }
 
+.contacto-footer img{
+    width: 30px;
+}
+
+.contacto-footer a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.servicio-items-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.servicio-items-footer span {
+    color: white;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.redes-sociales a img{
+    width: 50px;
+}
